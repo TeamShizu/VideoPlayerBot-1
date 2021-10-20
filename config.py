@@ -25,15 +25,15 @@ load_dotenv()
 admins = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AsmSupport")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
+API_ID = int(getenv("API_ID", "7635212"))
+API_HASH = getenv("API_HASH", "d2ff99e45bef6b7f94628277f888a644")
+BOT_TOKEN = getenv("BOT_TOKEN", "1978000206:AAH8RZdfyTz4iefS978gUIaespDFLWsNJ8Q")
+SESSION_STRING = getenv("SESSION_STRING", "BQBXdOzmQ5XIm9xnH0jN2nkvr8ismbOk23EXSgvz18HZs_Z1t426KRowQw7QSQAd876V3gNgbWz9CzgjrIHbvjlWi8Jq2T4GvAntXpJop8d647ucMPQUbVsAf7-bqY9usBLICb-AKPeJ7nt2YjkFJmJopS0DtHxUJUxiQhXEC2VfAO5DxvhSudtuoUKfZhSbAF_H-p82tNEQwt0bSTUY9kfBJauRuWk7IMZqV5L_jeCJ_CmSALGWqrlagzwVF-npBsJUJar8SrXtjky7cZ68OIriK9o-pCDJerzR46f-Q3QxJb2Oj2IrOVqM4qPbJHL97QKkezfsgWKlHEVEWQcbkiVqVmdKvwA")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "kingdom_family")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "kingdom_family_chanel")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "kingdom music")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "Hi there i am kingdom family music play bot")
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
 else:
