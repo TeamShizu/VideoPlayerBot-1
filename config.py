@@ -32,7 +32,7 @@ SESSION_STRING = getenv("SESSION_STRING", "BQBXdOzmQ5XIm9xnH0jN2nkvr8ismbOk23EXS
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "kingdom_family")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "kingdom_family_chanel")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "kingdom music")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS","1985638127").split()))
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "Hi there i am kingdom family music play bot")
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
